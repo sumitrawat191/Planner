@@ -1,5 +1,7 @@
-const API_URL = "http://localhost:3000/api";
-
+// Pehle yeh tha: const API_URL = "http://localhost:3000/api";
+ 
+// Ab isko apne Render URL se replace kar de:
+const API_URL = "https://faculty-portal-backend-xyz.onrender.com/api";
 const api = {
     // Helper function: Har request ke liye taaza headers taiyar karne ke liye
     getHeaders() {
